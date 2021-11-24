@@ -1,0 +1,75 @@
+table{ height :100%;
+       width:10%;
+	   border-collapse:collapse;
+       margin:0 auto;
+	   }
+
+	   
+body{background-color:#DCDCDC;
+       }
+	   
+#text{background-color:#FFFAF0; 
+	   }
+	   
+#text_2{background-color:#FFFAF0;
+text-align:right;
+font-style:italic;
+	  font-size:80%;
+}
+
+#menu li:hover ul { display:block;
+	}
+
+#menu, #menu ul{margin:0px;
+	padding:0px;
+	list-style-type:none;
+	} 
+
+#menu li {float:left;
+	position:relative;
+	width:250px;
+	text-align:center;
+	font: 18px "Bonveno","Century Gothic"; 
+	background-color:#B22222;
+	border:1px solid #CCC;	
+	box-shadow:0 3px 0 rgba(255,255,255,.9) inset, 0 3px 3px rgba(0,0,0,.1);
+	border-radius:10px;
+	margin-left:10px;
+	}
+
+#menu ul{display:none;
+	position:absolute;
+	top:100%;
+	margin-left:-11px;
+	} 
+
+#menu ul li{float:none;
+	}
+
+#menu {height:50px;
+	} 
+	
+#menu a{padding:10px;
+	text-decoration:none;
+	color:#777;
+	text-shadow:0 1px #FFF;
+	display:block;
+	}
+
+#menu li:hover{background:#e1e1e1;
+	}
+
+#menu a:hover {color:red;
+	}
+
+#menu ul a{font-style:italic;
+	font-size:80%
+	}
+
+#menu a.non-active{pointer-events:none;
+		color:navy;
+		font-weight:bold;
+		background:#e1e1e1;
+		border-radius:5px;
+		box-shadow:0 3px 0 rgba(255,255,255,.9) inset, 0 3px 3px rgba(0,0,0,.1);
+	}
